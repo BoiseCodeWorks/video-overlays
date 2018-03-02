@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bcc img{
+  position: absolute;
+  top: 12px;
+  right: 185px;
+  width: 241px;
+}
