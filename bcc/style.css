@@ -15,9 +15,12 @@ body {
   padding: 0;
 }
 
+.bcc{
+  background-color: #142a3d;
+  padding: 15px;
+  text-align: center;
+}
+
 .bcc img{
-  position: absolute;
-  top: 12px;
-  right: 185px;
   width: 241px;
 }
