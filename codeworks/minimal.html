@@ -1,22 +1,47 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <title>CodeWorks Learning Academy - Video Overlay</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="overflow: hidden;width: 1920px;height: 1080px;line-height: 1;position: relative;background-repeat: no-repeat;">
-
-<img id="img" src="codeworks.png" style="
-  position: absolute;
-  bottom: 1em;
-  right: -30em;
-  background-color: #0000001f;
-  padding: 1em;
-  height: 100px;
-  opacity: .8;
-  transition: all .3s linear;
+  <div id="img" style="
+position: absolute;
+bottom: 1em;
+right: -30em;
+background-color: #0000001f;
+padding: 1em;
+height: 100px;
+opacity: .8;
+transition: all .3s linear;
+display: flex; 
+align-items: center
 ">
 
-<script src="tag-manager.js"></script>
+    <div style="text-align: center">
+      <small id="instructor-name" style="
+        position: absolute;
+        bottom: -2.2em;
+        padding: 0.6em;
+        background: #03A9F4;
+        color: white;
+        width: 100%;
+        left: -.01em;
+        text-shadow: 1px 1px black;
+        border-bottom: 4px solid #2d2d2d;
+        border-top: 4px solid #2d2d2d;
+      ">Jake Overall</small>
+      <img id="instructor-photo" src="jake.jpg" style="height: 45px;width: 45px;border-radius: 12%;position: absolute;bottom: -2.1em;border: 2px solid #2d2d2d;left: 1.8em;">
+      <br>
+    </div>
+    <img src="codeworks.png" style="height: 80px;">
+  </div>
 
-</body></html>
+
+  <script src="tag-manager.js"></script>
+
+</body>
+
+</html>
