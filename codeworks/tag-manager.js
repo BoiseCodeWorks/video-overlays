@@ -26,6 +26,7 @@
     img.style.right = `${state.x}em` 
   }
   
+  setTimeout(transition, 5000)
   
   
 }())
