@@ -3,7 +3,7 @@
   setInstructor()
 
   let ul = { in: { x: 95, y: 60 }, outs: [{ x: 150, y: 60 }, { x: 95, y: 80 }] }
-  let cords = [{ in: { x: 1, y: 1 }, outs: [{ x: -50, y: 1 }, { x: 1, y: -35 }] }, { in: { x: 1, y: 60 }, outs: [{ x: -50, y: 60 }, { x: 1, y: 80 }] }]
+  let cords = [{ in: { x: 1, y: 2.5 }, outs: [{ x: -50, y: 1 }, { x: 1, y: -35 }] }, { in: { x: 1, y: 60 }, outs: [{ x: -50, y: 60 }, { x: 1, y: 80 }] }]
   let state = { in: false, pos: 0 }
   let t = 60000
   function transition() {
