@@ -12,13 +12,13 @@
     }
     state.in = true
     changePos()
-    setImg(coords[state.pos])
+    setImg(cords[state.pos])
     setTimeout(transition, 6000 * 8)
   }
   
   function changePos(){
-    let n = Math.floor(Math.random() * coords.length)
-    state.pos = Math.floor(Math.random() * coords.length)
+    let n = Math.floor(Math.random() * cords.length)
+    state.pos = Math.floor(Math.random() * cords.length)
   }
   
   function setImg(state){
