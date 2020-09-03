@@ -24,7 +24,7 @@
       state.in = false
       let n = cords[state.pos].outs[Math.floor(Math.random() * cords[state.pos].outs.length)]
       setImg(n)
-      setTimeout(transition, t * 3)
+      setTimeout(transition, t * 10)
       return
     }
     state.in = true
@@ -32,7 +32,7 @@
     setImg(cords[state.pos].outs[0])
     setTimeout(() => {
       setImg(cords[state.pos].in)
-      setTimeout(transition, t * 10)
+      setTimeout(transition, t * 1)
     }, 1000)
   }
 
