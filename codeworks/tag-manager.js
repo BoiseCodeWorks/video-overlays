@@ -13,8 +13,8 @@
     //   outs: [{ x: -50, y: 60 }, { x: 1, y: 80 }]
     // },
     {
-      in: { x: 92, y: 4.5 },
-      outs: [{ x: 120, y: 4.5 }]
+      in: { x: 97, y: 4.5 },
+      outs: [{ x: 140, y: 4.5 }]
     }]
   let state = { in: false, pos: 0 }
   let t = 60000
